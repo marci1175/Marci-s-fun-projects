@@ -35,5 +35,6 @@ elif dontes30 == "4":
     dontes120 = input("Which file do you want to remove?\nExtension/Full name required! (Marci.txt)\n")
     os.remove(dontes120)
 else:mindegy = input("Please select a number between 1 - 4!")
+input("Press enter, to restart the program.")
 os.startfile(sys.argv[0])
 sys.exit()
