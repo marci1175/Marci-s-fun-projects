@@ -28,9 +28,8 @@ elif dontes30 == "3":
     file1 = open(f"{fasz}.txt", "r+")
     olv = file1.read()
     print(f"You can enter text now.\n")
-    modi = input(f"{olv}---> ")
-
-    file1.write(f"{', '+ modi}")
+    modi = input(f"{olv}")
+    file1.write(f"{modi}")
 elif dontes30 == "4":
     dontes120 = input("Which file do you want to remove?\nExtension/Full name required! (Marci.txt)\n")
     os.remove(dontes120)
